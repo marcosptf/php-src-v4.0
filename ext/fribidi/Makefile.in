@@ -1,0 +1,9 @@
+# $Id: Makefile.in,v 1.1 2000/11/13 15:54:04 onn Exp $
+
+LTLIBRARY_NAME        = libfribidi.la
+LTLIBRARY_SOURCES     = fribidi.c
+LTLIBRARY_SHARED_NAME = fribidi.la
+LTLIBRARY_SHARED_LIBADD  = $(FRIBIDI_SHARED_LIBADD)
+
+include $(top_srcdir)/build/dynlib.mk
+EXTRA_INCLUDES = $(FRIBIDI_INCLUDE)

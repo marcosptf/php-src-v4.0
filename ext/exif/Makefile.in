@@ -1,0 +1,7 @@
+# $Id: Makefile.in,v 1.1 2000/05/24 10:33:18 rasmus Exp $
+
+LTLIBRARY_NAME        = libexif.la
+LTLIBRARY_SOURCES     = exif.c
+LTLIBRARY_SHARED_NAME = exif.la
+
+include $(top_srcdir)/build/dynlib.mk

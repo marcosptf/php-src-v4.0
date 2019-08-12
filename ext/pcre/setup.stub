@@ -1,0 +1,6 @@
+# $Source: /repository/php4/ext/pcre/setup.stub,v $
+# $Id: setup.stub,v 1.2 1999/05/26 21:47:56 andrey Exp $
+
+define_option with-pcre-regex 'pcre support?' yesnodir no \
+'    Whether to build the pcre extension.'
+	

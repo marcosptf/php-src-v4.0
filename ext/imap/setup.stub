@@ -1,0 +1,7 @@
+# $Source: /repository/php4/ext/imap/setup.stub,v $
+# $Id: setup.stub,v 1.1 1999/04/22 00:45:13 ssb Exp $
+
+define_option with-imap 'IMAP support?' yesnodir \
+    'no /usr/local/imap IMAP base install' \
+'     Whether to build with IMAP (Internet Message Access Protocol)\n
+     support.\n'

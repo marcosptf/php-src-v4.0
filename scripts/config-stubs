@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# $Id: config-stubs,v 1.3 2001/05/11 20:09:31 sas Exp $
+
+dir=$1; shift
+for stubfile in $dir/*/config0.m4 $dir/*/config.m4; do
+    echo "sinclude($stubfile)"
+done

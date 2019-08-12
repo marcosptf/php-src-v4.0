@@ -1,0 +1,6 @@
+# $Source: /repository/php4/ext/ovrimos/setup.stub,v $
+# $Id: setup.stub,v 1.1 2000/10/11 16:54:22 nmav Exp $
+
+define_option with-ovrimos 'ovrimos support?' yesnodir no \
+'    Whether to build the ovrimos extension.'
+	

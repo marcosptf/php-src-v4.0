@@ -1,0 +1,6 @@
+# $Source: /repository/php4/ext/mcrypt/setup.stub,v $
+# $Id: setup.stub,v 1.1 1999/04/25 16:50:40 sas Exp $
+
+define_option with-mcrypt 'mcrypt support?' yesnodir no \
+'    Whether to build the mcrypt extension.'
+	

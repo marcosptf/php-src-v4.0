@@ -1,0 +1,8 @@
+# $Source: /repository/php4/ext/ldap/setup.stub,v $
+# $Id: setup.stub,v 1.1 1999/04/22 00:45:14 ssb Exp $
+
+define_option with-ldap 'LDAP support?' yesnodir \
+    'no /usr/local/ldap LDAP base install' \
+'     Whether to build with LDAP (Lightweight Directory Access Protocol)\n
+     support.\n
+     More information about LDAP can be found in RFC1777 and RFC1778.'

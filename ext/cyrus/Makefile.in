@@ -1,0 +1,8 @@
+# $Id: Makefile.in,v 1.1 2001/08/05 17:43:03 sterling Exp $
+
+LTLIBRARY_NAME        = libcyrus.la
+LTLIBRARY_SOURCES     = cyrus.c
+LTLIBRARY_SHARED_NAME = cyrus.la
+LTLIBRARY_SHARED_LIBADD  = $(CYRUS_SHARED_LIBADD)
+
+include $(top_srcdir)/build/dynlib.mk

@@ -1,0 +1,8 @@
+# $Id: Makefile.in,v 1.1 2000/12/02 11:59:20 sasha Exp $
+
+LTLIBRARY_NAME        = libcrack.la
+LTLIBRARY_SOURCES     = crack.c
+LTLIBRARY_SHARED_NAME = crack.la
+LTLIBRARY_SHARED_LIBADD  = $(CRACK_SHARED_LIBADD)
+
+include $(top_srcdir)/build/dynlib.mk

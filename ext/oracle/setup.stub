@@ -1,0 +1,9 @@
+# $Source: /repository/php4/ext/oracle/setup.stub,v $
+# $Id: setup.stub,v 1.1 1999/04/21 22:49:16 ssb Exp $
+
+define_option with-oracle 'Oracle support?' yesnodir \
+    "no $oradir Oracle home" \
+'    Whether to build PHP with Oracle support.  Has been confirmed to\n
+    work with Oracle versions 7.0 to 7.3.  If you have not set up your\n
+    Oracle environment, enter what $ORACLE_HOME is usually set to here.\n
+    More info about Oracle can be found at http://www.oracle.com/.'

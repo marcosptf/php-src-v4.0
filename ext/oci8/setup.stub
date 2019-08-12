@@ -1,0 +1,6 @@
+# $Source: /repository/php4/ext/oci8/setup.stub,v $
+# $Id: setup.stub,v 1.1 1999/05/12 14:21:37 thies Exp $
+
+define_option with-oci8 'oci8 support?' yesnodir no \
+'    Whether to build the oci8 extension.'
+	

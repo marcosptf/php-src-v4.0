@@ -1,0 +1,6 @@
+# $Source: /repository/php4/ext/hyperwave/setup.stub,v $
+# $Id: setup.stub,v 1.1 1999/04/21 23:11:20 ssb Exp $
+
+define_option with-hyperwave 'Hyperwave support?' yesno no \
+'     Whether to build with Hyperwave support. More\n
+     information about Hyperwave can be found at http://www.hyperwave.com.'

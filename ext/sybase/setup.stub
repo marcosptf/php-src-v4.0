@@ -1,0 +1,11 @@
+# $Source: /repository/php4/ext/sybase/setup.stub,v $
+# $Id: setup.stub,v 1.1 1999/04/22 02:48:26 ssb Exp $
+
+define_option with-sybase 'Sybase support?' yesnodir \
+    'no /home/sybase Sybase install' \
+'     Whether to build PHP with Sybase support (DBLib only).\n
+     More info about Sybase can be found at http://www.sybase.com/.'
+
+define_option with-sybase-ct 'Sybase-CT support?' yesnodir \
+    'no /home/sybase Sybase-CT install' \
+'     Whether to build PHP with Sybase-CT support.'

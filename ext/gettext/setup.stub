@@ -1,0 +1,6 @@
+# $Id: setup.stub,v 1.1 1999/04/21 17:26:16 sas Exp $
+
+define_option with-gettext 'gettext support?' yesnodir \
+    "yes /usr/local" \
+'    Whether to include gettext support.'
+	

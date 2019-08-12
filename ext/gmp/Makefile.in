@@ -1,0 +1,9 @@
+# $Id: Makefile.in,v 1.1 2000/11/26 18:36:16 stas Exp $
+
+LTLIBRARY_NAME        = libgmp.la
+LTLIBRARY_SOURCES     = gmp.c
+LTLIBRARY_SHARED_NAME = gmp.la
+LTLIBRARY_LIBADD  = $(GMP_LIBADD)
+LTLIBRARY_SHARED_LIBADD  = $(GMP_SHARED_LIBADD)
+
+include $(top_srcdir)/build/dynlib.mk

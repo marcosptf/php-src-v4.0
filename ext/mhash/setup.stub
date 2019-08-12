@@ -1,0 +1,6 @@
+# $Source: /repository/php4/ext/mhash/setup.stub,v $
+# $Id: setup.stub,v 1.1 1999/05/16 12:01:25 sas Exp $
+
+define_option with-mhash 'mhash support?' yesnodir no \
+'    Whether to build the mhash extension.'
+	

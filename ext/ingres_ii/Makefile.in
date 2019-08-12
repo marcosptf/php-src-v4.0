@@ -1,0 +1,8 @@
+# $Id: Makefile.in,v 1.2 2000/07/17 23:21:41 henot Exp $
+
+LTLIBRARY_NAME        = libingres_ii.la
+LTLIBRARY_SOURCES     = ii.c
+LTLIBRARY_SHARED_NAME = ingres_ii.la
+LTLIBRARY_SHARED_LIBADD  = $(II_SHARED_LIBADD)
+
+include $(top_srcdir)/build/dynlib.mk

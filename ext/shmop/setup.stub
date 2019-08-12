@@ -1,0 +1,5 @@
+# $Source: /repository/php4/ext/shmop/setup.stub,v $
+# $Id: setup.stub,v 1.1 2000/10/01 15:06:04 derick Exp $
+
+define_option enable-shmop 'System V shmop suppport? ' yesno no \
+'    Whether to use the System V shmop (currently only Solaris and Linux).'

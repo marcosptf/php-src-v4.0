@@ -1,0 +1,8 @@
+# $Id: Makefile.in,v 1.2 2001/07/27 23:32:56 sniper Exp $
+
+LTLIBRARY_NAME        = libbz2.la
+LTLIBRARY_SOURCES     = bz2.c
+LTLIBRARY_SHARED_NAME = bz2.la
+LTLIBRARY_SHARED_LIBADD = $(BZ2_SHARED_LIBADD)
+
+include $(top_srcdir)/build/dynlib.mk

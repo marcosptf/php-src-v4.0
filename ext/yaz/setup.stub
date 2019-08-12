@@ -1,0 +1,8 @@
+# $Source: /repository/php4/ext/yaz/setup.stub,v $
+# $Id: setup.stub,v 1.1 2000/05/25 21:54:34 dickmeiss Exp $
+
+define_option with-yaz 'YAZ support?' yesnodir \
+    'no /usr/bin YAZ base install' \
+'     Whether to build with YAZ (Z39.50 protocol package)\n
+     support.\n
+     More info about YAZ can be found at http://www.indexdata.dk/yaz/'

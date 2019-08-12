@@ -1,0 +1,10 @@
+# $Source: /repository/php4/ext/mnogosearch/setup.stub,v $
+# $Id: setup.stub,v 1.2 2001/01/31 14:04:29 gluke Exp $
+
+define_option with-mnogosearch 'mnoGoSearch support?' yesnodir \
+    'no /usr/local/udmsearch mnoGoSearch install' \
+'    Whether to build PHP with mnoGoSearch support. 
+     More info about mnoGoSearch can be found at http://search.mnogo.ru/.'
+
+
+	
